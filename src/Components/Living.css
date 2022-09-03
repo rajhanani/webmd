@@ -1,0 +1,75 @@
+.liv_1{
+    display: flex;
+    margin: 15px;
+   
+}
+
+.liv_img{
+    width: 44%;
+}
+
+.liv_img img{
+    width: 100%;
+    height: auto;
+}
+
+.liv_text{
+   margin-left: 9px;
+}
+
+.livpart_1 hr{
+   width: 85%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.liv_1{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 10px 30px 30px 30px;
+    
+    
+}
+
+.liv_img{
+    width: 80%;
+}
+
+.liv_img img{
+    width: 100%;
+    height: auto;
+}
+
+.livpart_1{
+    margin-top: 20px;
+   
+}
+
+.liv_text{
+    margin-left: 8px;
+}
+
+.liv_text h3:hover{
+    text-decoration: underline;
+}
+
+.livhelthy{
+    display: flex;
+}
+
+}

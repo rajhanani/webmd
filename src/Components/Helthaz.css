@@ -1,0 +1,46 @@
+.az_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.az_1 h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.az_2 h3{
+    text-decoration: underline;
+}
+
+.az_1 ul li{
+    list-style-type: none;
+}
+
+.helthyaz{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.helthyaz ul li{
+    list-style-type: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.helthyaz ul li:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: rgb(44, 139, 216);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 80%;
+    margin-top: 10px;
+}

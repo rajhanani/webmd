@@ -1,0 +1,122 @@
+.main_card{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card_1{
+    background-color:rgb(243, 228, 208);
+     width: 86%;
+     border-radius: 10px;
+     margin:15px;
+ }
+
+ .card_img{
+    width: 100%;
+ }
+
+ .card_img img{
+    width: 100%;
+    height: auto;
+ }
+
+ .card_name{
+    text-align: center;
+}
+
+.card_title{
+    text-align: center;
+}
+
+.card_title i{
+    margin-left: 80%;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card_name h3{
+    color: rgb(21, 88, 110)
+}
+
+.card_title h3{
+    color: rgb(78, 177, 216);
+    font-size: 25px;
+}
+
+.card_title i:hover{
+    background-color: rgb(8, 34, 138);
+    color: white;
+    
+}
+
+
+
+
+@media only screen and (min-width: 1200px){
+.main_card{
+    background-color:rgb(216, 237, 245);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 20px; 
+    padding: 20px 40px 100px 40px;
+    margin-top: 40px;
+}
+
+.main_card h1{
+    font-size: 42px;
+    font-weight:800;
+    color: rgb(85, 79, 79);
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card_1{
+   background-color:rgb(243, 228, 208);
+    width: 28%;
+    border-radius: 10px;
+}
+
+.card_img img{
+    width: 100%;
+   
+}
+
+.card_name{
+    text-align: center;
+}  
+
+.card_name h3{
+    color: rgb(21, 88, 110)
+}
+
+.card_title i{
+    margin-left: 80%;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card_title i:hover{
+    background-color: rgb(8, 34, 138);
+    color: white;
+    
+}
+
+.card_title h3{
+    color: rgb(78, 177, 216);
+    font-size: 25px;
+} 
+
+}
